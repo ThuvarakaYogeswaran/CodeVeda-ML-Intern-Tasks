@@ -160,33 +160,6 @@ KNN-Iris-Classification/
     └── confusion_matrix.png
 ```
 
-## How to Run
-
-### 1. Clone the repository
-
-```bash
-git clone <your-github-repository-link>
-cd KNN-Iris-Classification
-```
-
-### 2. Install the required libraries
-
-```bash
-pip install pandas numpy scikit-learn matplotlib seaborn
-```
-
-### 3. Open the notebook
-
-Open:
-
-```text
-KNN_Iris_Classification.ipynb
-```
-
-### 4. Run the notebook
-
-Run the cells sequentially to reproduce the preprocessing, KNN training, performance comparison, evaluation metrics, and visualizations.
-
 ## Conclusion
 
 The KNN classifier was successfully implemented on the Iris dataset. Multiple K values were tested and compared using classification metrics.
