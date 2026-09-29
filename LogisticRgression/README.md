@@ -186,15 +186,5 @@ The task demonstrates:
 **Level:** Level 2 – Intermediate  
 **Task:** Task 1 – Logistic Regression for Binary Classification
 
----
-
-## 📬 Connect
-
-- **LinkedIn:** [Your LinkedIn] · tagged `@Codveda`
-- **Hashtags:** `#CodvedaJourney` `#CodvedaExperience` `#FutureWithCodveda`
 
 ---
-
-## 📄 License
-
-This project is submitted as part of the **Codveda Technologies Machine Learning Internship** and is available under the MIT License.
