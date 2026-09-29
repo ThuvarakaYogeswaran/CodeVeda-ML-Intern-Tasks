@@ -163,7 +163,7 @@ Logistic-Regression-Iris/
 ### 1. Clone the repository
 
 ```bash
-git clone <your-github-repository-link>
+git clone https://github.com/ThuvarakaYogeswaran
 cd Logistic-Regression-Iris
 ```
 
