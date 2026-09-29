@@ -91,6 +91,12 @@ The highest test accuracy was **96.67%**, achieved by K values **1, 7, 9, 11, 15
 
 The implemented procedure selected **K = 1** because it was the first K value to achieve the maximum test accuracy.
 
+### KNN Performance vs K
+
+The chart below shows accuracy and weighted F1-score across the tested K values. Note how accuracy is stable at K=1 and then plateaus from K=7 onward — a good sign the model is robust and not dependent on a specific K choice.
+
+![KNN Performance vs K](images/knn_performance_vs_k.png)
+
 ## Classification Report
 
 For K = 1:
@@ -118,12 +124,18 @@ The confusion matrix for K = 1 was:
 
 The model correctly classified **29 out of 30 test samples**. One Virginica sample was classified as Versicolor.
 
+### Confusion Matrix Heatmap
+
+![Confusion Matrix](images/confusion_matrix.png)
+
+The heatmap makes the single misclassification immediately visible: one *virginica* sample was predicted as *versicolor*, which is expected because those two species overlap in petal measurements at the boundary.
+
 ## Visualizations
 
-The project includes:
+The project includes two key visualizations:
 
-1. **KNN Performance vs K** – compares accuracy and weighted F1-score for different K values.
-2. **Confusion Matrix** – shows the correct and incorrect predictions for each Iris species.
+1. **KNN Performance vs K** — compares accuracy and weighted F1-score for different K values.
+2. **Confusion Matrix** — shows the correct and incorrect predictions for each Iris species.
 
 ## Technologies Used
 
