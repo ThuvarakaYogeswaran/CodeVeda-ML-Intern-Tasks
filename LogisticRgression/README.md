@@ -158,30 +158,6 @@ Logistic-Regression-Iris/
     └── roc_curve_lr.png
 ```
 
-## How to Run
-
-### 1. Clone the repository
-
-```bash
-git clone https://github.com/ThuvarakaYogeswaran
-cd Logistic-Regression-Iris
-```
-
-### 2. Install dependencies
-
-```bash
-pip install pandas numpy scikit-learn matplotlib seaborn
-```
-
-### 3. Open the notebook
-
-```text
-Logistic_Regression_Iris.ipynb
-```
-
-### 4. Run all cells sequentially
-
-The notebook covers: loading → binarization → split → scaling → training → metrics → odds ratios → ROC → confusion matrix.
 
 ## Technologies Used
 
