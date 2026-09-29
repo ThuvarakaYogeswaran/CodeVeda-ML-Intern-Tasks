@@ -179,31 +179,6 @@ Decision-Tree-Boston-Housing/
     └── feature_importance_dt.png
 ```
 
-## How to Run
-
-### 1. Clone the repository
-
-```bash
-git clone <your-github-repository-link>
-cd Decision-Tree-Boston-Housing
-```
-
-### 2. Install dependencies
-
-```bash
-pip install pandas numpy scikit-learn matplotlib seaborn
-```
-
-### 3. Open the notebook
-
-```text
-Decision_Tree_Boston.ipynb
-```
-
-### 4. Run all cells sequentially
-
-The notebook covers: loading → binning the target → split → unpruned tree → pruned tree → overfitting curve → classification report → confusion matrix → tree visualization → feature importance.
-
 ## Technologies Used
 
 - **Python 3.10+**
