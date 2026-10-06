@@ -63,14 +63,14 @@ Each task lives in its own folder with its own dedicated README, notebook, datas
 
 ## Task Summary Table
 
-| # | Level | Task | Algorithm | Dataset | Key Metric | Folder |
-|---|---|---|---|---------|------------|--------|
-| 1 | 1 — Basic | Data Preprocessing | — | Iris | Clean dataset, 80/20 split | [Link](Level-1-Basic/Task-1-Data-Preprocessing/) |
-| 2 | 1 — Basic | KNN Classifier | K-Nearest Neighbors | Iris | Accuracy 96.67% | [Link](Level-1-Basic/Task-3-KNN-Classifier/) |
-| 3 | 2 — Intermediate | Logistic Regression | Logistic Regression | Iris (binary) | Accuracy 100%, AUC 1.0 | [Link](Level-2-Intermediate/Task-1-Logistic-Regression/) |
-| 4 | 2 — Intermediate | Decision Tree | Decision Tree (pruned) | Boston Housing (3-class) | Accuracy ~82% | [Link](Level-2-Intermediate/Task-2-Decision-Tree/) |
-| 5 | 3 — Advanced | Random Forest | Random Forest (tuned) | Boston Housing (3-class) | Accuracy ~85% | [Link](Level-3-Advanced/Task-1-Random-Forest/) |
-| 6 | 3 — Advanced | SVM Classifier | Support Vector Machine | Iris (versicolor vs virginica) | Accuracy ~95%, AUC ~0.97 | [Link](Level-3-Advanced/Task-2-SVM/) |
+| # | Level | Task | Algorithm | Dataset | Key Metric | 
+|---|---|---|---|---------|------------|
+| 1 | 1 — Basic | Data Preprocessing | — | Iris | Clean dataset, 80/20 split | 
+| 2 | 1 — Basic | KNN Classifier | K-Nearest Neighbors | Iris | Accuracy 96.67% | 
+| 3 | 2 — Intermediate | Logistic Regression | Logistic Regression | Iris (binary) | Accuracy 100%, AUC 1.0 | 
+| 4 | 2 — Intermediate | Decision Tree | Decision Tree (pruned) | Boston Housing (3-class) | Accuracy ~82% | 
+| 5 | 3 — Advanced | Random Forest | Random Forest (tuned) | Boston Housing (3-class) | Accuracy ~85% | 
+| 6 | 3 — Advanced | SVM Classifier | Support Vector Machine | Iris (versicolor vs virginica) | Accuracy ~95%, AUC ~0.97 | 
 
 > **Note:** The Codveda internship requires **2 tasks per level**. All 6 tasks shown above satisfy that requirement.
 
@@ -209,38 +209,6 @@ Codveda-ML-Internship/
 
 ---
 
-## How to Use This Repo
-
-### Option A — Browse a single task
-
-1. Open the folder of the task you're interested in
-2. Read its `README.md` for the summary
-3. Open the `.ipynb` notebook to see the full code and outputs
-
-### Option B — Run any task locally
-
-```bash
-git clone <this-repository-url>
-cd Codveda-ML-Internship
-
-cd Level-1-Basic/Task-3-KNN-Classifier
-pip install pandas numpy scikit-learn matplotlib seaborn
-jupyter notebook KNN_Iris_Classification.ipynb
-```
-
-Every task notebook is self-contained, runs top-to-bottom, and generates its own images into a local `images/` folder.
-
-### Option C — Quick preview without cloning
-
-Each task's `README.md` includes:
-- A full description of the approach
-- The results table
-- Embedded images (confusion matrix, ROC curve, decision boundary, etc.)
-- A link back to the notebook on GitHub
-
-Use **nbviewer.org** to render any `.ipynb` inline by pasting its GitHub URL.
-
----
 
 ## Key Learnings
 
@@ -277,20 +245,5 @@ Across all 6 tasks, the following themes emerged:
 **Duration:** 1 month  
 **Requirement:** 2 tasks per level — **all 6 required tasks completed**
 
-### 🔗 Related
-
-- **Organization:** [Codveda](https://www.codveda.com)
-- **Contact:** support@codveda.com
-
 ---
 
-## 📬 Connect
-
-- **LinkedIn:** [Your LinkedIn] · tagged `@Codveda`
-- **Hashtags:** `#CodvedaJourney` `#CodvedaExperience` `#FutureWithCodveda`
-
----
-
-## 📄 License
-
-All tasks in this repository are submitted as part of the **Codveda Technologies Machine Learning Internship** and are available under the MIT License.
